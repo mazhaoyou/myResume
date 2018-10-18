@@ -98,7 +98,7 @@
 						<div class="col-md-12 col-sm-12 col-xl-12 three" v-for="date in project_info">
 							<div class="col-md-12 col-sm-12 col-xl-12 three"><strong>{{date.projuct_name}}</strong></div>
 							<div class="col-md-6 col-sm-12 col-xl-12 three"><strong>{{date.name}}</strong>&nbsp;&nbsp;{{date.job_position}}</div>
-							<div class="col-md-6 col-sm-12 col-xl-12 three">{{date.times}}</div>
+							<div class="col-md-6 col-sm-12 col-xl-12 three text-right">{{date.times}}</div>
 							<div class="col-md-12 col-sm-12 col-xl-12 three">
 								<ul class="info" v-for="date in date.values">
 									<li>{{date.info}}</li>
@@ -109,21 +109,22 @@
 							</div>
 						</div>
 					</section>
-					<!--<section class="col-md-12 col-sm-12 col-xl-12">
+					<!--个人项目-->
+					<section class="col-md-12 col-sm-12 col-xl-12">
 						<div class="education">
 							<span class="user-o education_ba"><i class="fa fa-user-circle-o fa-1 mr-5" ></i>{{person_product}}</span>
 							<hr />
 						</div>
 						<div class="col-md-12 col-sm-12 col-xl-12 three" v-for="date in person_info">
 							<div class="col-md-6 col-sm-12 col-xl-12 three"><strong>{{date.name}}</strong>&nbsp;&nbsp;{{date.job_position}}</div>
-							<div class="col-md-6 col-sm-12 col-xl-12 three">{{date.times}}</div>
+							<div class="col-md-6 col-sm-12 col-xl-12 three text-right">{{date.times}}</div>
 							<div class="col-md-12 col-sm-12 col-xl-12 three">
 								<ul class="info">
 									<li>{{date.info}}</li>
 								</ul>
 							</div>
 						</div>
-					</section>-->
+					</section>
 
 					<section class="col-md-12 col-sm-12 col-xl-12">
 						<div class="education">
@@ -158,6 +159,6 @@
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script src="js/vue.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/react_resune.js"></script>
+	<script src="js/data.js"></script>
 
 </html>
