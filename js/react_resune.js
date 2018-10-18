@@ -2,8 +2,8 @@ new Vue({
   el: '#resume',
   data: {
   	img : 'free.jpg',
-    name: 'xxx',
-    email: 'xxx_gis@163.com',
+    name: '马钊有',
+    email: 'mazhaoyou_gis@163.com',
     phone: '18610512608',
     github : 'https://github.com/mazhaoyou',
     github_name : 'mazhaoyou',
