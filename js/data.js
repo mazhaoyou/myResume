@@ -135,7 +135,7 @@ new Vue({
     		projuct_name : '混合学习',
     		name : '混合学习',
 	    	job_position : '个人职责：Web前端开发',
-	    	times : '2018.5.20~2018.8',
+	    	times : '2018.5—2018.8',
 	    	values : [{
 	    		info : 'H5、运用BootStrap、JQuery、bootstrap、css3、canvas',
 	    	},{
