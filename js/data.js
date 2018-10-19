@@ -8,6 +8,7 @@ new Vue({
     github : 'https://github.com/mazhaoyou',
     github_name : 'mazhaoyou',
     job : '求职意向：H5、前端工程师  ',
+    expected_salary:'期望薪资：22k(可谈)',
     education_ba : '教育背景',
     education : [{
     	school : '哈尔滨师范大学',
@@ -70,13 +71,13 @@ new Vue({
     project_experience : '项目经历',
     project_info : [
 	     {
-    		id : '9',
+    		id : '1',
     		projuct_name : '新航道托福',
     		name : '新航道托福',
-	    	job_position : 'Web前端开发',
-	    	times : '2018.2－2018.3',
+	    	job_position : '个人职责：Web前端开发',
+	    	times : '2018.1－2018.2',
 	    	values : [{
-	    		info : '运用mui框架/vue',
+	    		info : '运用mui框架、vue',
 	    	},{
 	    		info : '采用前后端分离以及模板展示',
 	    	},{
@@ -85,13 +86,13 @@ new Vue({
 	    	describe : '项目描述: 此项目我负责切部分图、数据对接，主要实现视频播放、音频播放、真题发布、发布评论、删除评论、给评论点赞、取消点赞、点击收藏、取消收藏等功能',
     	},
 	     {
-    		id : '8',
+    		id : '2',
     		projuct_name : '新航道雅思',
     		name : '新航道雅思',
-	    	job_position : 'Web前端开发',
-	    	times : '2018.1~2018.2',
+	    	job_position : '个人职责：Web前端开发',
+	    	times : '2018.2~2018.3',
 	    	values : [{
-	    		info : '运用mui框架/vue',
+	    		info : '运用mui框架、vue',
 	    	},{
 	    		info : '采用前后端分离以及模板展示',
 	    	},{
@@ -100,13 +101,13 @@ new Vue({
 	    	describe : '使用对象：面向所有准雅思考生。',
     	},
 	     {
-    		id : '7',
+    		id : '3',
     		projuct_name : '新航道应用中心',
     		name : '新航道应用下载',
-	    	job_position : 'Web前端开发',
-	    	times : '2018.4.20~2018.7.01',
+	    	job_position : '个人职责：Web前端开发',
+	    	times : '2018.3.~2018.4',
 	    	values : [{
-	    		info : '运用BootStrap/vue',
+	    		info : '运用H5、css、BootStrap、vue',
 	    	},{
 	    		info : '采用前后端分离以及模板展示',
 	    	},{
@@ -115,28 +116,28 @@ new Vue({
 	    	describe : '',
     	},
 	    {
-    		id : '6',
-    		projuct_name : '电商项目',
-    		name : '合伙人项目',
-	    	job_position : 'Web前端开发',
-	    	times : '2018.4.20~2018.7.01',
+    		id : '4',
+    		projuct_name : '519雅思节',
+    		name : '519雅思节',
+	    	job_position : '个人职责：Web前端开发',
+	    	times : '2018.4－2018.5',
 	    	values : [{
-	    		info : '运用BootStrap/JQuery/bootstrap table/css3',
+	    		info : '运用H5、CSS3、jquery、vue',
 	    	},{
 	    		info : '采用前后端分离',
 	    	},{
 	    		info : '采用JSON/AJAX数据交互',
 	    	}],
-	    	describe : '',
+	    	describe : '该项目主要由首页、战队选择、我的战队、我的战绩、邀请好友、邀好友助力等几个模块组成，操作流程为 首次进入活动界面（H5界面通过该微信、QQ、APP进去）完成登录，在首页选择战区，选择完战区进入战队选择界面选择已选择战区自己中意的战队，加入战队不能以后修改，以后每次进入我的战队为首页。',
     	},
 	  {
     		id : '5',
-    		projuct_name : '电商项目',
-    		name : '猫超OS平台',
-	    	job_position : 'Web前端开发',
-	    	times : '2018.4.20~2018.7.01',
+    		projuct_name : '混合学习',
+    		name : '混合学习',
+	    	job_position : '个人职责：Web前端开发',
+	    	times : '2018.5.20~2018.8',
 	    	values : [{
-	    		info : '运用BootStrap/JQuery/bootstrap table/css3',
+	    		info : 'H5、运用BootStrap、JQuery、bootstrap、css3、canvas',
 	    	},{
 	    		info : '采用前后端分离',
 	    	},{
@@ -147,32 +148,13 @@ new Vue({
 	    	describe : '',
     	},
     	{
-    		id : '4',
-    		projuct_name : '企业项目',
-    		name : '创元生产平台',
-	    	job_position : 'Web前端开发',
-	    	times : '2017.12~2018.3',
+    		id : '6',
+    		projuct_name : '宁夏智慧体育',
+    		name : '宁夏智慧体育',
+	    	job_position : '个人职责:Web前端开发、参与设计、切图、数据对接、发布',
+	    	times : '2017.7－2017.10',
 	    	values : [{
-	    		info : '运用BootStrap/JQuery/jsp',
-	    	},{
-	    		info : '采用前后端分离',
-	    	},{
-	    		info : '采用JSON/AJAX数据交互',
-	    	},{
-	    		info : '采用RequreJS前端模块化',
-	    	},{
-	    		info : '运用echartjs实现数据可视化',
-	    	}],
-	    	describe : '对客户新增的产品进行专业的维护以及报价、支付凭证审核、对于合同的不同类型的产品进行生产流程分配。',
-    	},
-    	{
-    		id : '3',
-    		projuct_name : '企业项目',
-    		name : '客户下单平台',
-	    	job_position : 'Web前端开发',
-	    	times : '2017.10~2017.12',
-	    	values : [{
-	    		info : '运用BootStrap/JQuery',
+	    		info : '运用H5、css3、mui、vue、',
 	    	},{
 	    		info : '采用前后端分离',
 	    	},{
@@ -180,49 +162,7 @@ new Vue({
 	    	},{
 	    		info : '运用echartjs实现数据可视化',
 	    	}],
-	    	describe : '推广公司生产的单片机产品，解决公司传统的接单方式，通过客户注册，添加客户需要的产品详细信息以及生产相关的文件，客户对自己添加的产品进行下单生成合同，创元成业公司接单生产，对客户的合同需生产的产品进行报价、用户上传支付凭证等以及售后服务。',
-    	},
-    	{
-    		id : '2',
-    		projuct_name : '商业项目',
-    		name : '工控安全卫士',
-	    	job_position : 'Web前端开发',
-	    	times : '2017.1~2017.4',
-	    	values : [{
-	    		info : '运用BootStrap/JQuery/css3',
-	    	},{
-	    		info : '自定义组件',
-	    	},{
-	    		info : '采用前后端分离',
-	    	},{
-	    		info : '采用JSON/AJAX数据交互',
-	    	},{
-	    		info : '采用RequreJS前端模块化',
-	    	},{
-	    		info : '运用echartjs/gojs实现数据可视化',
-	    	}],
-	    	describe : '类似杀毒软件网络安全管理',
-    	},
-    	{
-    		id : '1',
-    		projuct_name : '商业项目',
-    		name : '工控卫士集中管理平台',
-	    	job_position : 'Web前端开发',
-	    	times : '2016.10~2017.1',
-	    	values : [{
-	    		info : '运用angular框架',
-	    	},{
-	    		info : '自定义组件',
-	    	},{
-	    		info : '采用前后端分离',
-	    	},{
-	    		info : '采用JSON/AJAX数据交互',
-	    	},{
-	    		info : '采用RequreJS/NodeJS前端模块化',
-	    	},{
-	    		info : '开发过程中解决了很多问题，如跨域问题等',
-	    	}],
-	    	describe : '针对传统的工业进行网络安全管理',
+	    	describe : '项目描述: 此项目移动 app 模块由我负责，主要实现通知类数据展示、项目申报、创建团队发起约战、通过微信、qq等分享约战、接受别发发起的约战、展示约战最终结果、体育地图（周边体育场馆展示）、在线体育场馆预定等功能',
     	}
     ],
     person_product : '个人项目',
@@ -230,9 +170,9 @@ new Vue({
     	{
     		id : '1',
     		name : '购物商场',
-	    	job_position : 'vue全家桶',
 	    	times : '2018.9~2018.10',
-	    	info : '使用vue/vue-router/vue-loader/webpack',
+	    	info : '使用vue、vue-router、vue-loader、webpack',
+	    	job_position : '个人职责：web前端开发',
     	},
     	
     ],
@@ -242,12 +182,12 @@ new Vue({
     	{
     		id : '1',
     		name : 'github',
-	    	language : 'CSDN: https://blog.csdn.net/qq_24343389 ',
+	    	language : 'https://github.com/mazhaoyou',
     	},
     	{
     		id : '2',
     		name : 'CSDN博客',
-	    	language : 'https://github.com/mazhaoyou',
+	    	language : 'https://blog.csdn.net/qq_24343389 ',
     	}
     ],
     selfEvaluation : '个人评价',
@@ -267,6 +207,7 @@ new Vue({
     		name : '3',
 	    	describe : '热爱计算机软件事业，对IT领域的软件开发和设计工作有浓厚的兴趣，希望可以在这个行业长久发展。',
     	}
-    ]
+    ],
+   thanks:  "致谢 感谢您花时间阅读我的简历，期待能有机会和您共事。"
   }
 })

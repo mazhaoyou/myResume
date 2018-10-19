@@ -38,8 +38,11 @@
 								<i class="fa fa-github mr-5" aria-hidden="true"></i>
 								<a v-bind:href="github">{{github_name}}</a>
 							</div>
-							<div class="col-md-12 col-sm-12 col-xl-12 position">
+							<div class="col-md-6 col-sm-12 col-xl-12 position">
 								<span class="job">{{job}}</span>
+							</div>
+							<div class="col-md-6 col-sm-12 col-xl-12 position text-right">
+								<span class="job">{{expected_salary}}</span>
 							</div>
 						</div>
 					</section>
@@ -82,7 +85,7 @@
 							<span class="education_ba"><i class="fa fa-building fa-1 mr-5" ></i>{{work_experience}}</span>
 							<hr />
 						</div>
-						<div class="col-md-12 col-sm-12 col-xl-12" v-for="date in work_info">
+						<div class="col-md-12 col-sm-12 col-xl-12" v-for="date in work_info" :key="date.id">
 							<div class="col-md-4 col-sm-12 col-xl-12 three">{{date.times}}</div>
 							<div class="col-md-4 col-sm-6 col-xl-6 three">{{date.company}}</div>
 							<div class="col-md-4 col-sm-6 col-xl-6 three text-right">{{date.job_position}}</div>
@@ -96,8 +99,8 @@
 							<hr />
 						</div>
 						<div class="col-md-12 col-sm-12 col-xl-12 three" v-for="date in project_info">
-							<div class="col-md-12 col-sm-12 col-xl-12 three"><strong>{{date.projuct_name}}</strong></div>
-							<div class="col-md-6 col-sm-12 col-xl-12 three"><strong>{{date.name}}</strong>&nbsp;&nbsp;{{date.job_position}}</div>
+<!--							<div class="col-md-12 col-sm-12 col-xl-12 three"><strong>{{date.projuct_name}}</strong></div>
+-->							<div class="col-md-6 col-sm-12 col-xl-12 three"><strong>{{date.name}}</strong></div>
 							<div class="col-md-6 col-sm-12 col-xl-12 three text-right">{{date.times}}</div>
 							<div class="col-md-12 col-sm-12 col-xl-12 three">
 								<ul class="info" v-for="date in date.values">
@@ -107,21 +110,28 @@
 							<div class="col-md-12 col-sm-12 col-xl-12 three">
 								<span>{{date.describe}}</span>
 							</div>
+							<div class="col-md-12 col-sm-12 col-xl-12 three">
+								{{date.job_position}}
+							</div>
 						</div>
 					</section>
-					<!--个人项目-->
+					<!--个人项目 -->
 					<section class="col-md-12 col-sm-12 col-xl-12">
 						<div class="education">
 							<span class="user-o education_ba"><i class="fa fa-user-circle-o fa-1 mr-5" ></i>{{person_product}}</span>
 							<hr />
 						</div>
-						<div class="col-md-12 col-sm-12 col-xl-12 three" v-for="date in person_info">
-							<div class="col-md-6 col-sm-12 col-xl-12 three"><strong>{{date.name}}</strong>&nbsp;&nbsp;{{date.job_position}}</div>
+						<div class="col-md-12 col-sm-12 col-xl-12 three" v-for="date in person_info" :key="date.id">
+							<div class="col-md-6 col-sm-12 col-xl-12 three"><strong>{{date.name}}</strong></div>
 							<div class="col-md-6 col-sm-12 col-xl-12 three text-right">{{date.times}}</div>
+							
 							<div class="col-md-12 col-sm-12 col-xl-12 three">
 								<ul class="info">
 									<li>{{date.info}}</li>
 								</ul>
+							</div>
+							<div class="col-md-12 col-sm-12 col-xl-12 three">
+								{{date.job_position}}
 							</div>
 						</div>
 					</section>
@@ -150,6 +160,12 @@
 									<span>{{date.describe}}</span>
 								</li>
 							</ul>
+						</div>
+					</section>
+					<section class="col-md-12 col-sm-12 col-xl-12">
+							<hr />
+						<div class="col-md-12 col-sm-12 col-xl-12 three thanks">
+							{{thanks}}
 						</div>
 					</section>
 				</div>
