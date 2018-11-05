@@ -8,7 +8,7 @@ new Vue({
     github : 'https://github.com/mazhaoyou',
     github_name : 'mazhaoyou',
     job : '求职意向：H5、前端工程师  ',
-    expected_salary:'期望薪资：22k(可谈)',
+    expected_salary:'期望薪资：25k(可谈)',
     education_ba : '教育背景',
     education : [{
     	school : '哈尔滨师范大学',
@@ -35,35 +35,40 @@ new Vue({
     	},
 
     ],
-     skills : '技能',
+	 skills : '技能',
     skills_info : [
     	{
     		id : '1',
-    		name : '语言',
-	    	language : 'HTML5/CSS/Javascript/',
+    		name : 'web开发',
+	    	language : 'html/CSS/javacsript',
     	},
     	{
     		id : '2',
-    		name : '框架',
-	    	language : 'Jquery/Bootstrap/vue/MUI',
+    		name : '前端框架',
+	    	language : '：Bootstrap/jQuery/Vue/MUI',
     	},
     	{
     		id : '3',
     		name : '数据库',
-	    	language : 'MySql/Oracle ',
+	    	language : 'MySql',
+		},
+		{
+    		id : '4',
+    		name : '数据库',
+	    	language : 'nodejs/express ',
     	},
     	{
-    		id : '4',
-    		name : '前端工具 ',
+    		id : '5',
+    		name : '自动化工具 ',
 	    	language : 'webpack',
 	    },
 	    {
-    		id : '5',
+    		id : '6',
     		name : '版本管理 ',
 	    	language : 'svn/git',
 	    },
 	    	{
-    		id : '6',
+    		id : '7',
     		name : '其他',
 	    	language : '有高德 API、百度 API 开发经验',
     	},
